@@ -2,7 +2,6 @@ import React from "react";
 import classes from "../Styles/Form.module.css";
 import TextInput from "./TextInput";
 import Button from "./Button";
-import Checkbox from "./Checkbox"
 import { Link,useNavigate } from "react-router-dom"
 import {useState} from "react"
 import {useAuth} from "../context/AuthContext"
