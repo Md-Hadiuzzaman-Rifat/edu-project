@@ -45,7 +45,7 @@ const LoginForm = () => {
         lock{" "}
       </TextInput>
 
-      <Button className="button" type="submit">
+      <Button className="button" type="submit" disabled={loading}>
         <span>Submit now</span>
       </Button> 
 
