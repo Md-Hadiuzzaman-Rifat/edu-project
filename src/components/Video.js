@@ -3,7 +3,6 @@ import img from "../assets/images/3.jpg";
 import Classes from "../Styles/Video.module.css"
 const Video = () => {
   return (
-      <a href="quiz.html">
         <div className={Classes.video}>
           <img src={img} alt="" />
           <p>#23 React Hooks Bangla - React useReducer hook Bangla</p>
@@ -12,8 +11,8 @@ const Video = () => {
             <p>Score : Not taken yet</p>
           </div>
         </div>
-      </a>
   );
 };
 
 export default Video;
+ 
